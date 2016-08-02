@@ -24,7 +24,10 @@ select {
   box-sizing: border-box;
 }
 
-input:focus, input[type="submit"]:focus, input[type="submit"]:hover {
+input:focus,
+input[type="submit"]:focus, input[type="submit"]:hover,
+textarea:focus, textarea:hover,
+select:focus, select:hover {
   border: 2px solid #781125;
   background: rgba(250, 200, 200, 1);
   color: #781125;
