@@ -2,12 +2,25 @@
 
 table {
   font-family: 'Open Sans', sans-serif;
-  margin: 10px ;
+  margin: 10px;
+  float: right;
 }
 
-.heading{
-  display: inline-block;
-  margin: 0;
+footer {
+	position:  fixed;
+	bottom:  0%;
+	left:  10%;
+	padding:  0;
+	margin:  0 auto;
+}
+
+.flex {
+  float: right;
+}
+
+.heading {
+  margin: 0px -300px;
+  position: absolute;
 }
 
 .pick{
